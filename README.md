@@ -5,9 +5,20 @@ Análise e Desenvolvimento de Sistemas – Senac EAD Santo Amaro.
 
 ---
 
+# 👥 Integrantes do Grupo
+
+- Ayanne Victória Lima Santos  
+- Ariene Karenne de Andrade Machado  
+- Emerson Eduardo Aires Nunes  
+- Felipe Augusto Brusamolin de Souza  
+- Haremitsu Sebin Raffaini  
+- Raphael Tettmann da Silva  
+
+---
+
 # 📌 Objetivo do Projeto
 
-Modelar e prototipar um sistema completo, seguindo conceitos de **UML** e **modelagem orientada a objetos** para gestão de:
+Modelar e prototipar um sistema completo para uma universidade, seguindo conceitos de **UML** e **modelagem orientada a objetos** para gestão de:
 
 - Pessoas Físicas  
 - Pessoas Jurídicas  
@@ -25,20 +36,48 @@ Utilizando:
 
 ---
 
-# 👥 Integrantes do Grupo
+# 📂 Estrutura do Repositório
 
-- Ayanne Victória Lima Santos  
-- Ariene Karenne de Andrade Machado  
-- Emerson Eduardo Aires Nunes  
-- Felipe Augusto Brusamolin de Souza  
-- Haremitsu Sebin Raffaini  
-- Raphael Tettmann da Silva  
+```
+📦 P.I_DESENVOLVIMENTO_DE_SISTEMAS_ORIENTADO_A_OBJETOS
+ ┣ 📁 diagramas_da_fase_1
+ ┃ ┣ 🖼️ diagrama_de_caso_de_uso.png
+ ┃ ┗ 🖼️ diagrama_de_classes.png
+ ┣ 📁 prototipos
+ ┃ ┣ 🎨 cadastro_de_pessoa_fisica.png
+ ┃ ┣ 🎨 cadastro_de_pessoa_juridica.png
+ ┃ ┣ 🎨 cadastro_de_professores.png
+ ┃ ┣ 🎨 cadastro_de_fornecedores.png
+ ┃ ┗ 🎨 cadastro_de_alunos.png
+ ┣ 📁 modelo_dados
+ ┃ ┣ 📜 modelo_banco.sql
+ ┃ ┗ 📜 diagrama_banco.png
+ ┣ 📜 README.md
+```
 
 ---
+
+# 🗃️ Modelo de Dados
+
+O modelo de dados do sistema foi desenvolvido com base na modelagem UML da Fase 1.
+Os scripts e diagramas estão disponíveis na pasta /modelo_dados deste repositório.
+
+- modelo_dados/modelo_banco.sql: Script SQL do banco (MySQL)
+
+- modelo_dados/diagrama_banco.png: Diagrama ER do banco
+
+---
+
+## 📝 Observações
+
+Para visualizar o diagrama, abra o arquivo diagrama_banco.png.
+
+Para criar o banco, utilize o script modelo_banco.sql no MySQL.
 
 # 🖥️ Protótipos da Interface (Fase 2)
 
 Todos os protótipos foram desenvolvidos com base nos diagramas de caso de uso elaborados na **Fase 1**.
+E podem ser acessados seguindo o caminho (P.I_DESENVOLVIMENTO_DE_SISTEMAS_ORIENTADO_A_OBJETOS/prototipos/)
 
 ---
 
@@ -58,28 +97,6 @@ Todos os protótipos foram desenvolvidos com base nos diagramas de caso de uso e
 
 ---
 
-# 🖼️ Imagens das Telas
-
-
-## Cadastro de Pessoa Física
-
-
-
-## Cadastro de Pessoa Jurídica
-
-
-
-## Cadastro de Professores
-<img width="1437" height="1023" alt="image" src="https://github.com/user-attachments/assets/c934e3db-8523-4a43-98a1-82fa60aac9f5" />
-
-## Cadastro de Fornecedores
-<img width="1436" height="1022" alt="image" src="https://github.com/user-attachments/assets/d0226bd9-5bd3-4f7c-be8a-b49e2e1da876" />
-
-## Cadastro de Alunos
-<img width="1439" height="1022" alt="image" src="https://github.com/user-attachments/assets/59baaf3d-1afd-4161-b127-4d3beb28bf45" />
-
----
-
 # 🛠️ Ferramentas Utilizadas
 
 - **Figma** — Prototipação das interfaces  
@@ -95,7 +112,7 @@ Todos os protótipos foram desenvolvidos com base nos diagramas de caso de uso e
 | Fase | Descrição | Status |
 |------|-----------|--------|
 | **Fase 1** | Modelagem UML | ✔️ Concluído |
-| **Fase 2** | Protótipos | ⏳ Em desenvolvimento |
+| **Fase 2** | Protótipos    | ⏳ Em desenvolvimento |
 | **Fase 3** | Implementação | 🔒 Ainda não iniciada |
 
 ---
