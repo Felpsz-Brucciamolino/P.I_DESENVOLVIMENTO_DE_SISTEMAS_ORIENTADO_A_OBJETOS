@@ -44,6 +44,7 @@ Utilizando:
  ┃ ┣ 🖼️ diagrama_de_caso_de_uso.png
  ┃ ┗ 🖼️ diagrama_de_classes.png
  ┣ 📁 prototipos
+<<<<<<< HEAD
  ┃ ┣ 🎨 aluno.html
  ┃ ┣ 🎨 cadastro.css
  ┃ ┣ 🎨 fornecedor.html
@@ -54,6 +55,13 @@ Utilizando:
  ┃ ┣ 🎨 pessoajuridica.html
  ┃ ┣ 🎨 professor.html
  ┃ ┗ 🎨 style.css
+=======
+ ┃ ┣ 🎨 cadastro_de_pessoa_fisica.png
+ ┃ ┣ 🎨 cadastro_de_pessoa_juridica.png
+ ┃ ┣ 🎨 cadastro_de_professores.png
+ ┃ ┣ 🎨 cadastro_de_fornecedores.png
+ ┃ ┗ 🎨 cadastro_de_alunos.png
+>>>>>>> c67b028d9bf614d693f50f565847bfc5255f0dfa
  ┣ 📁 modelo_dados
  ┃ ┣ 📜 modelo_banco.sql
  ┃ ┗ 📜 diagrama_banco.png
@@ -102,9 +110,12 @@ Como o plano gratuito do Figma traz a limitação de 3 projetos por grupo, optam
 ## Figma
 👉 https://www.figma.com/files/team/1568044807616037545/project/492622105?fuid=1547303103765475673
 
+<<<<<<< HEAD
 ## Site (Vercel)
 👉 
 
+=======
+>>>>>>> c67b028d9bf614d693f50f565847bfc5255f0dfa
 ---
 
 # 🛠️ Ferramentas Utilizadas
