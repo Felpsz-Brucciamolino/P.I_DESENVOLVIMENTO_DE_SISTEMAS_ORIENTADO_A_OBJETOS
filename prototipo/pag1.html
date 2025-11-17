@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pag1.css">
+    <title>Pagina Inicial</title>
+</head>
+
+<body>
+    <aside aria-label="Menu lateral">
+        <nav aria-label="Navegação principal">
+            <h2>Menu</h2>
+            <ul>
+                <li>Dashboard</li>
+
+                <li onclick="toggleSubmenu()" aria-haspopup="true" aria-expanded="false" id="cadastroBtn">
+                    Cadastro ▾
+                </li>
+
+                <ul class="submenu" id="submenuCadastro" aria-label="Opções de cadastro">
+                    <li><a href="PessoaFisica.html" style="color:white; text-decoration:none;">Cadastrar Pessoas
+                            Físicas</a></li>
+                    <li><a href="Pessoajuridica.html" style="color:white; text-decoration:none;">Cadastrar Pessoas
+                            Jurídicas</a></li>
+                    <li><a href="Professor.html" style="color:white; text-decoration:none;">Cadastrar Professores</a>
+                    </li>
+                    <li><a href="aluno.html" style="color:white; text-decoration:none;">Cadastrar Alunos</a></li>
+                    <li><a href="forncedor.html" style="color:white; text-decoration:none;">Cadastrar Fornecedores</a>
+                    </li>
+                </ul>
+
+                <li>Relatório</li>
+
+                <li>Configuração</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <h1>Bem-vindo ao nosso sistema</h1>
+        <p>Use o menu lateral para navegar</p>
+    </main>
+
+    <script>
+        function toggleSubmenu() {
+            const submenu = document.getElementById("submenuCadastro");
+            const btn = document.getElementById("cadastroBtn");
+
+            const isOpen = submenu.style.display === "block";
+
+            submenu.style.display = isOpen ? "none" : "block";
+            btn.setAttribute("aria-expanded", !isOpen);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cadastro.css">
+    <title>Aluno</title>
+</head>
+
+<body>
+
+    <aside aria-label="Menu lateral">
+        <nav aria-label="Navegação principal">
+            <h2>Menu</h2>
+
+            <ul>
+                <li>Dashboard</li>
+
+                <!-- Item com submenu -->
+                <li>
+                    <button id="cadastroBtn" onclick="toggleSubmenu()" aria-haspopup="true" aria-expanded="false"
+                        style="all: unset; cursor: pointer; font-size:18px;">
+                        Cadastro ▾
+                    </button>
+                <ul class="submenu" id="submenuCadastro" aria-label="Opções de cadastro">
+                    <li><a href="PessoaFisica.html" style="color:white; text-decoration:none;">Cadastrar Pessoas
+                            Físicas</a></li>
+                    <li><a href="Pessoajuridica.html" style="color:white; text-decoration:none;">Cadastrar Pessoas
+                            Jurídicas</a></li>
+                    <li><a href="Professor.html" style="color:white; text-decoration:none;">Cadastrar Professores</a>
+                    </li>
+                    <li><a href="aluno.html" style="color:white; text-decoration:none;">Cadastrar Alunos</a></li>
+                    <li><a href="forncedor.html" style="color:white; text-decoration:none;">Cadastrar Fornecedores</a>
+                    </li>
+                </ul>
+                </li>
+
+                <li>Relatório</li>
+                <li>Configuração</li>
+
+            </ul>
+        </nav>
+    </aside>
+
+
+    <main>
+        <div class="interface">
+
+            <div class="part-cima">
+                <div class="part-left">
+                    Home > Cadastro > Aluno
+                </div>
+
+                <div class="part-right">
+                    <div class="login"></div>
+                </div>
+            </div>
+
+            <div class="part-baixo">
+                Cadastro De Aluno
+            </div>
+
+            <div class="container">
+
+                <!-- BUSCA -->
+                <div class="search-box">
+                    <label>Buscar Aluno</label>
+                    <div class="search-row">
+                        <input type="text" placeholder="Digite CPF ou Nome">
+                        <button class="btn-blue">Buscar</button>
+                    </div>
+                </div>
+
+
+                <!-- FORMULÁRIO -->
+                <form>
+
+                    <h2>Dados Pessoais</h2>
+
+                    <div class="grid">
+                        <div class="field">
+                            <label>Nome Completo *</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="field">
+                            <label>CPF *</label>
+                            <input type="text" placeholder="000.000.000-00">
+                        </div>
+
+                        <div class="field">
+                            <label>Data de Nascimento</label>
+                            <input type="text" placeholder="dd/mm/aaaa">
+                        </div>
+
+                        <div class="field">
+                            <label>E-mail</label>
+                            <input type="email" placeholder="exemplo@email.com">
+                        </div>
+
+                        <div class="field">
+                            <label>Telefone</label>
+                            <input type="text" placeholder="(00) 00000-0000">
+                        </div>
+                    </div>
+
+
+                    <h2>Dados Acadêmicos</h2>
+
+                    <div class="grid">
+                        <div class="field">
+                            <label>Matrícula *</label>
+                            <input type="text" placeholder="Ex: 2025001">
+                        </div>
+
+                        <div class="field">
+                            <label>Curso *</label>
+                            <select>
+                                <option disabled selected>Selecione o curso</option>
+                                <option>Engenharia</option>
+                                <option>Análise de Sistemas</option>
+                                <option>Administração</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label>Data de Ingresso</label>
+                            <input type="text" placeholder="dd/mm/aaaa">
+                        </div>
+                    </div>
+
+
+                    <div class="buttons">
+                        <button type="button" class="btn-white">Cancelar</button>
+                        <button type="submit" class="btn-blue">Salvar</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+
+    <script>
+        function toggleSubmenu() {
+            const submenu = document.getElementById("submenuCadastro");
+            const btn = document.getElementById("cadastroBtn");
+
+            const isOpen = submenu.style.display === "block";
+
+            submenu.style.display = isOpen ? "none" : "block";
+            btn.setAttribute("aria-expanded", !isOpen);
+        }
+    </script>
+
+</body>
+
+</html>
