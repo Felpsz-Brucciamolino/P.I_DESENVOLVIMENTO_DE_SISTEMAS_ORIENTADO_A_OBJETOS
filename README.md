@@ -111,11 +111,13 @@ Como o plano gratuito do Figma traz a limitação de 3 projetos por grupo, optam
 
 # 🛠️ Ferramentas Utilizadas
 
-- **Figma** — Prototipação das interfaces  
+- **Figma** — Prototipação das interfaces
 - **Draw.io** — Criação dos diagramas UML
-- **MySQL / SQL** — Modelagem e criação do banco de dados 
+- **MySQL / SQL** — Modelagem e criação do banco de dados
+- **HTML / CSS** — Estruturação e estilização da base do site
 - **Git / GitHub** — Versionamento e colaboração  
 - **Markdown** — Documentação
+- **VS Code** — Ambiente de desenvolvimento
 
 ---
 
