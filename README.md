@@ -44,24 +44,16 @@ Utilizando:
  ┃ ┣ 🖼️ diagrama_de_caso_de_uso.png
  ┃ ┗ 🖼️ diagrama_de_classes.png
  ┣ 📁 prototipos
-<<<<<<< HEAD
  ┃ ┣ 🎨 aluno.html
- ┃ ┣ 🎨 cadastro.css
+ ┃ ┣ 🎨 Cadastro.css
  ┃ ┣ 🎨 fornecedor.html
  ┃ ┣ 🎨 index.html
- ┃ ┣ 🎨 pag1.css 
- ┃ ┣ 🎨 pag1.html
- ┃ ┣ 🎨 pessoafisica.html
- ┃ ┣ 🎨 pessoajuridica.html
- ┃ ┣ 🎨 professor.html
+ ┃ ┣ 🎨 Pag1.css 
+ ┃ ┣ 🎨 Pag1.html
+ ┃ ┣ 🎨 PessoaFisica.html
+ ┃ ┣ 🎨 Pessoajuridica.html
+ ┃ ┣ 🎨 Professor.html
  ┃ ┗ 🎨 style.css
-=======
- ┃ ┣ 🎨 cadastro_de_pessoa_fisica.png
- ┃ ┣ 🎨 cadastro_de_pessoa_juridica.png
- ┃ ┣ 🎨 cadastro_de_professores.png
- ┃ ┣ 🎨 cadastro_de_fornecedores.png
- ┃ ┗ 🎨 cadastro_de_alunos.png
->>>>>>> c67b028d9bf614d693f50f565847bfc5255f0dfa
  ┣ 📁 modelo_dados
  ┃ ┣ 📜 modelo_banco.sql
  ┃ ┗ 📜 diagrama_banco.png
@@ -107,15 +99,14 @@ E podem ser acessados seguindo o caminho (P.I_DESENVOLVIMENTO_DE_SISTEMAS_ORIENT
 # 🔗 Link para o Protótipo no Figma e o site próprio
 Como o plano gratuito do Figma traz a limitação de 3 projetos por grupo, optamos por utilizar ele como referência e usar como protótipo o próprio site em HTML e CSS
 
-## Figma
+## Figma (com apenas 3 abas de exemplo)
 👉 https://www.figma.com/files/team/1568044807616037545/project/492622105?fuid=1547303103765475673
 
-<<<<<<< HEAD
-## Site (Vercel)
-👉 
 
-=======
->>>>>>> c67b028d9bf614d693f50f565847bfc5255f0dfa
+## Site (Vercel)
+👉 https://site-pi-cadastro-de-universidade.vercel.app/Professor.html
+
+
 ---
 
 # 🛠️ Ferramentas Utilizadas
